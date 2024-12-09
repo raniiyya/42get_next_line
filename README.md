@@ -50,9 +50,9 @@
        while (get_next_line(fd, &line) > 0) {
          printf("%s\n", line);
          free(line);  // Don't forget to free the allocated memory
-        }
-        close(fd);  // Always close the file descriptor
-        return (0);
+       }
+       close(fd);  // Always close the file descriptor
+       return (0);
     }
 
 4. To compile your program with the `get_next_line` implementation:
