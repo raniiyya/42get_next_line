@@ -53,7 +53,7 @@
        }
        close(fd);  // Always close the file descriptor
        return (0);
-    }
+   }
 
 4. To compile your program with the `get_next_line` implementation:
    ```bash
